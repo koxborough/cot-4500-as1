@@ -96,7 +96,6 @@ def task_six_newton(function_a: str, function_a_der: str, x: float, error: float
             print("Failure: Derivation is 0")
     print("Failure: Maximum number of iterations")
 
-# binary_num = "0100000000111011100100011010000000000000000000000000000000000000"
 binary_num = "010000000111111010111001"
 
 result: float = task_one(binary_num)
