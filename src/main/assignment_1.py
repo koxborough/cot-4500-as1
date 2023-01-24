@@ -118,11 +118,11 @@ if (check_for_alternating(function_a) and check_for_decreasing(function_a, x)):
 function_a = "x**3 + 4*x**2 - 10"
 error = 10**(-4)
 
-left: int = 4
+left: int = -4
 right: int = 7
 
 task_six_bisection(function_a, error, left, right)
 
 function_a_der = "3*x**2 + 8*x"
 
-task_six_newton(function_a, function_a_der, abs(right - left), error)
+task_six_newton(function_a, function_a_der, right - left, error)
