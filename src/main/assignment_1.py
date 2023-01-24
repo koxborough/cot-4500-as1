@@ -38,7 +38,7 @@ def task_three(result: float):
 # Compute absolute error for the difference between double precision and 3 digit rounding
 def task_four_absolute(result: float, rounded_result: float):
     absolute_error_val = abs(result - rounded_result)
-    print(absolute_error_val, "\n")
+    print(absolute_error_val)
     return absolute_error_val
 
 # Compute relative error for the difference between double precision and 3 digit rounding
@@ -79,7 +79,7 @@ def task_six_bisection(function_a: str, error: float, left: int, right: int):
         else:
             left = x
         i += 1
-    print(i, "\n")
+    print(i)
 
 # Determine number of iterations to solve with Newton method
 def task_six_newton(function_a: str, function_a_der: str, x: float, error: float):
